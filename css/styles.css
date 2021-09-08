@@ -42,3 +42,18 @@ body{
 button {
     text-decoration: none;
 }
+
+@media screen (max-width: 780px) {
+    .navbar-brand{
+        width: 41;
+        height:30;
+    }
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+    
